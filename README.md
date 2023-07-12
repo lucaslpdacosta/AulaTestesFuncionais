@@ -7,9 +7,11 @@
 
 <p>baixe as dependencias:</p>
     npm install
-
+<br>
 <p>rode todos os testes:</p>
   npm run test
+
+<br>
 
 <p>rode um teste especifico:</p>
   npm run test ClasseDeEqui.test.js
