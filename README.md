@@ -1,6 +1,6 @@
 # AulaTestesFuncionais
 <p>
-  na classe loja temos os metodos responsaveis por adicionar um item, e comprar este item.<br>
+  na classe loja temos os metodos responsaveis por adicionar um item, e comprar.<br>
   O metodo de comprar deve realizar um desconto. Só que temos um erro no codigo e que não está passando em alguns testes.<br>
   Encontre o erro e corrija
 </p>
