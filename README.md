@@ -5,14 +5,22 @@
   Encontre o erro e corrija
 </p>
 
-<p>baixe as dependencias:</p>
-    npm install
-<br>
-<p>rode todos os testes:</p>
+<p>baixe as dependencias:
+  <br>
+  npm install
+</p>
+    
+<p>rode todos os testes:
+   <br>
   npm run test
+</p>
 
-<br>
 
-<p>rode um teste especifico:</p>
+
+<p>rode um teste especifico:
+  <br>
   npm run test ClasseDeEqui.test.js
   npm run test particaoDeEqui.test.js
+
+</p>
+  
