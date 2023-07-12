@@ -7,7 +7,9 @@
 
 <p>baixe as dependencias:
   <br>
-  npm install
+  <div style="backgroun-color:'#eee'">
+      npm install
+  </div>
 </p>
     
 <p>rode todos os testes:
