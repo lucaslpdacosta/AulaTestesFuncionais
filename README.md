@@ -20,6 +20,7 @@
 <p>rode um teste especifico:
   <br>
   npm run test ClasseDeEqui.test.js
+  <br>
   npm run test particaoDeEqui.test.js
 
 </p>
