@@ -7,7 +7,7 @@
 
 <p>baixe as dependencias:
   <br>
-  <div style="backgroun-color:'#eee'">
+  <div style="backgroun-color:#eee">
       npm install
   </div>
 </p>
