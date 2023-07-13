@@ -10,18 +10,15 @@ describe('Exemplo da técnica de transição de estados', () => {
   it('CENÁRIO 1: Lâmpada está inicialmente em estado desligada e devemos deixar ela ligada.', () => {
 
     // Transição de estados:
-    // Estado inicial: Ligado
+    // Estado inicial: Desligado
     // Ação: Pressionar o interruptor
-    // Resultado esperado: A lâmpada deve estar ligada
+    // Resultado esperado: A lâmpada deve estar ligada.
 
-    // Verifique se a lâmpada está inicialmente desligada
-    expect(lampada.isLigada()).toBe(false);
+    // Primeiro, verifique se a lâmpada está inicialmente desligada
 
-    // Instanciando o método que simboliza o evento
-    lampada.ativarInterruptor();
+    // Instancie o método que simboliza o evento
 
-    // Verificando se a lâmpada já está ligada
-    expect(lampada.isLigada()).toBe(true);
+    // Verifique se a lâmpada já está ligada
   });
 
   it('CENÁRIO 2: Lâmpada está em estado ligada e devemos deixar ela desligada.', () => {
@@ -31,16 +28,12 @@ describe('Exemplo da técnica de transição de estados', () => {
     // Ação: Pressionar o interruptor
     // Resultado esperado: A lâmpada deve estar desligada
 
-    // Instanciando o método de ligar a lâmpada, para que seu estado passe para "ligada"
-    lampada.ligar();
+    // Primeiro, instancie o método de ligar a lâmpada, para que seu estado passe de "desligada" para "ligada"
 
-    // Verificando se a lâmpada já está ligada
-    expect(lampada.isLigada()).toBe(true);
+    // Verifique se a lâmpada está ligada
 
-    // Instanciando o método que simboliza o evento
-    lampada.ativarInterruptor();
+    // Instancie o método que simboliza o evento
 
-    // Verificando se a lâmpada está desligada
-    expect(lampada.isLigada()).toBe(false);
+    // Verifique se a lâmpada está desligada
   });
 });

@@ -1,27 +1,21 @@
 # AulaTestesFuncionais
-<p>
-  na classe loja temos os metodos responsaveis por adicionar um item, e comprar.<br>
-  O metodo de comprar deve realizar um desconto. Só que temos um erro no codigo e que não está passando em alguns testes.<br>
-  Encontre o erro e corrija
-</p>
 
-<p>baixe as dependencias:
-  <br>
-    npm install
-</p>
+## Classe Loja:
+  - **Na classe Loja, temos os metodos responsaveis por adicionar um item e comprar**;
+  - **O metodo de comprar deve realizar um desconto. Existe um erro colocado no código e que não está passando em alguns testes**;
+  - **Encontre o erro e o corrija**
+
+## Classe Lâmpada:
+  - **Na class Lampada, temos os metodos responsáveis por criar e manusear os estados de uma lâmpada**;
+  - **Vocês devem criar os testes responsáveis para verificar os estados esperados com base no princípio da transferência de estados**.
+
+## Baixe as Dependências:
+  - **npm install**
     
-<p>rode todos os testes:
-   <br>
-  npm run test
-</p>
+## Rode Todos os Testes:
+  - **npm run test**
 
-
-
-<p>rode um teste especifico:
-  <br>
-  npm run test ClasseDeEqui.test.js
-  <br>
-  npm run test particaoDeEqui.test.js
-
-</p>
-  
+## Rode um Teste Especifico:
+  - **npm run test ClasseDeEqui.test.js**
+  - **npm run test particaoDeEqui.test.js**
+  - **npm run test lampada.test.js**
