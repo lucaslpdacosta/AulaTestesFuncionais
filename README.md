@@ -1,4 +1,5 @@
 # AulaTestesFuncionais
+<h2>para a classe loja:</h2>
 <p>
   na classe loja temos os metodos responsaveis por adicionar um item, e comprar.<br>
   O metodo de comprar deve realizar um desconto. Só que temos um erro no codigo e que não está passando em alguns testes.<br>
@@ -24,4 +25,4 @@
   npm run test particaoDeEqui.test.js
 
 </p>
-  
+
