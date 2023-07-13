@@ -6,13 +6,13 @@
   - **na class Lampada, temos os metodos responsáveis por criar e manusear os estados de uma lâmpada**.
   - **vocês devem criar os testes responsáveis para verificar os estados esperados com base no princípio da transferência de estados**.
 
-##baixe as dependencias:
+## baixe as dependencias:
   - **npm install**
     
-##rode todos os testes:
+## rode todos os testes:
   - **npm run test**
 
-##rode um teste especifico:
+## rode um teste especifico:
   - **npm run test ClasseDeEqui.test.js**
   - **npm run test particaoDeEqui.test.js**
   - **npm run test lampada.test.js**
